@@ -9,7 +9,7 @@ console.log(
 function myFunction(a, b) {
   const obj = {};
   a.forEach((element, index) => {
-    obj[element] = b[index].toString();
+    obj[element] = b[index];
   });
   return obj;
 }
